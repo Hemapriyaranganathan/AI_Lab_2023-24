@@ -16,7 +16,7 @@ Step 9 : Define a problem for block world problem.<br>
 Step 10 : Obtain the plan for given problem.<br> 
      
 ### Program:
-domain.pddl
+###domain.pddl
 ```
 (define (domain blocksworld)
 (:requirements :strips :equality)
@@ -47,7 +47,8 @@ domain.pddl
        (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty))))
 ```
 
-Problem 1:
+###Problem 1:
+
 ```
 (define (problem pb1)
 (:domain blocksworld)
@@ -56,10 +57,13 @@ Problem 1:
 (:goal (and (on a b))))
 ```
 
-Output:
+###Output:
+
+
 ![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/60fe331f-d0ae-4131-981e-eeaf61c0b8a9)
 
-Problem 2:
+###Problem 2:
+
 ```
 (define(problem pb3)
 (:domain blocksworld)
@@ -68,8 +72,9 @@ Problem 2:
 (clear a) (clear b) (clear c) (arm-empty))
 (:goal (and (on a b) (on b c)))
 ```
+###Output:
 
-Output:
+
 ![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/12dd5114-e135-45a7-989f-706ae3c5dc96)
 
 
