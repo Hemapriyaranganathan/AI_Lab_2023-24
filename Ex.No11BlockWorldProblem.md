@@ -17,6 +17,7 @@ Step 10 : Obtain the plan for given problem.<br>
      
 ### Program:
 domain.pddl
+```
 (define (domain blocksworld)
 (:requirements :strips :equality)
 (:predicates (clear ?x)
@@ -44,25 +45,29 @@ domain.pddl
  :precondition (and (on ?ob ?underob) (clear ?ob) (arm-empty))
 :effect (and (holding ?ob) (clear ?underob)
        (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty))))
-
+```
 
 Problem 1:
+```
 (define (problem pb1)
 (:domain blocksworld)
 (:objects a b)
 (:init (on-table a) (on-table b) (clear a) (clear b) (arm-empty))
 (:goal (and (on a b))))
+```
 
 Output:
 ![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/60fe331f-d0ae-4131-981e-eeaf61c0b8a9)
 
 Problem 2:
+```
 (define(problem pb3)
 (:domain blocksworld)
 (:objects a b c)
 (:init (on-table a) (on-table b) (on-table c)
 (clear a) (clear b) (clear c) (arm-empty))
 (:goal (and (on a b) (on b c)))
+```
 
 Output:
 ![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/12dd5114-e135-45a7-989f-706ae3c5dc96)
@@ -80,9 +85,6 @@ Output:
 
 
 
-### Input 
-
-### Output/Plan:
 
 
 
