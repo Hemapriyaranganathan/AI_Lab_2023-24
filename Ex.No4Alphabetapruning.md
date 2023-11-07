@@ -57,7 +57,9 @@ print("The optimal value is :", minimax(0, 0, True, values, MIN, MAX)
 
 ### Output:
 
-![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/9e73585a-5ee4-4806-8485-f5fae07657a1)
+![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/9791fa68-d99c-46c4-8bea-b8ade3432aff)
+
+
 
 
 
