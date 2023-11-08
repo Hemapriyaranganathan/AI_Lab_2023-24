@@ -1,9 +1,9 @@
 # Ex.No: 13 Learning – Use Supervised Learning  
-### DATE: 28:10:23                                                                           
+### DATE:                                                                            
 ### REGISTER NUMBER : 212222040055
 ### AIM: 
-To write a program to train the classifier for -----------------.
-###  Algorithm:
+To write a program to train the classifier for Diabetes Prediction.
+### Algorithm:
 1.Start the program.
 
 2.Import required Python libraries, including NumPy, Pandas, Google Colab, Gradio, and various scikit-learn modules.
@@ -30,7 +30,7 @@ To write a program to train the classifier for -----------------.
 
 ### Program:
 ```
-import packages
+#import packages
 import numpy as np
 import pandas as pd
 
@@ -57,6 +57,7 @@ print(x[:5])
 
 from multi_imbalance.utils.plot import plot_cardinality_and_2d_data
 plot_cardinality_and_2d_data(x, y, 'PIMA Diabetes Prediction Data set')
+
 #split data
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test= train_test_split(x,y)
@@ -96,8 +97,13 @@ app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','num
 app.launch(share=True)
 ```
 
-
 ### Output:
+
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/cf2bf2cf-213e-46da-8c3c-e2b1b4b82eb6)
+
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/89af30fd-ecbc-4798-8324-723cd7304139)
+
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/fd6636fe-9fd1-4ee8-901b-ca38c271f1f4)
 
 
 ### Result:
