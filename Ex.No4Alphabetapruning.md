@@ -54,10 +54,12 @@ values, alpha, beta):
     return best
 values = [3, 5, 6, 9, 1, 2, 0, -1]
 print("The optimal value is :", minimax(0, 0, True, values, MIN, MAX)
+```
 
 ### Output:
 
-![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/9791fa68-d99c-46c4-8bea-b8ade3432aff)
+![image](https://github.com/Hemapriyaranganathan/AI_Lab_2023-24/assets/119476111/b478587c-6a2b-4499-adfd-fb3903b2b85b)
+
 
 
 
